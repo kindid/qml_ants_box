@@ -47,7 +47,7 @@ Item {
             }
             PathArc {
                 x: root.width
-                y: 5
+                y: root.radius
                 radiusX: root.radius
                 radiusY: root.radius
             }
