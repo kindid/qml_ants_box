@@ -11,6 +11,7 @@ Item {
     property int radius: 5
     property int pattern: 2
     property int speed: 400
+    property string color: '#fff'
     Shape {
         NumberAnimation {
             target: shapePath
@@ -30,7 +31,7 @@ Item {
                 root.pattern
             ]
             strokeWidth: root.pattern * 2
-            strokeColor: '#fff'
+            strokeColor: root.color
             joinStyle: ShapePath.RoundJoin
             startX: 0
             startY: root.radius
